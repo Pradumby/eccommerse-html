@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slick.css">
+  <link rel="stylesheet" href="slick-theme.css">
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="slick.js"></script>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <div class="header-wrap">
+        <a href="#" class="logo"><img src="assets/images/logo.png"></a>
+        <ul class="menu-list">
+          <li><a href="home.component.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="list.component.html">Shop</a></li>
+          <li><a href="blog.html">blog</a></li>
+        </ul>
+        <div class="right-menu">
+          <a href="" class="head-ico search"></a>
+          <a href="account.component.html" class="head-ico user"></a>
+          <a href="cart.component.html" class="head-ico cart"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <section class="banner">
+      <ul class="slider">
+
+        <li>
+          <div class="img-box">
+            <img src="assets/images/banner.png">
+          </div>
+          <div class="content">
+            <div class="wrapper">
+              <h1>Title</h1>
+              <p>Lorem Ipsum is simply dummy text of the industry.</p>
+              <a href="list.component.html" class="btn btn-wht">Buy 1 get 1</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="img-box">
+            <img src="assets/images/banner.png">
+          </div>
+          <div class="content">
+            <div class="wrapper">
+              <h1>Title</h1>
+              <p>Lorem Ipsum is simply dummy text of the industry.</p>
+              <a href="list.component.html" class="btn btn-wht">Buy 1 get 1</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+    </section>
+    <section class="featured-list">
+      <div class="wrapper">
+        <h2 class="title">Featured Products</h2>
+        <ul class="prod-list ">
+          <li>
+            <div class="item">
+              <div class="img-box">
+                <img src="assets/images/prod-img1.jpg">
+              </div>
+              <div class="data">
+                <h4>category</h4>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item">
+              <div class="img-box">
+                <img src="assets/images/prod-img1.jpg">
+              </div>
+              <div class="data">
+                <h4>category</h4>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item">
+              <div class="img-box">
+                <img src="assets/images/prod-img1.jpg">
+              </div>
+              <div class="data">
+                <h4>category</h4>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item">
+              <div class="img-box">
+                <img src="assets/images/prod-img1.jpg">
+              </div>
+              <div class="data">
+                <h4>category</h4>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="wrapper">
+        <div class="newletter-wrap">
+          <div class="info">
+            <span>newletter </span>
+            <p>Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown
+              printer took a galley of type</p>
+          </div>
+          <div class="subscribe">
+            <input type="email" class="text" placeholder="Email Address">
+            <input type="submit" value="subscribe" class="btn">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="wrapper">
+      <div class="footer-wrap">
+        <div class="col">
+          <h6>categories</h6>
+          <ul>
+            <li><a href="#">category1</a></li>
+            <li><a href="#">category2</a></li>
+            <li><a href="#">category3</a></li>
+            <li><a href="#">category4</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>customer service</h6>
+          <ul>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu2</a></li>
+            <li><a href="#">menu3</a></li>
+            <li><a href="#">menu4</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>My Account</h6>
+          <ul>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">saved products</a></li>
+            <li><a href="#">My returns</a></li>
+            <li><a href="#">menu4</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>others</h6>
+          <ul>
+            <li><a href="#">find store</a></li>
+            <li><a href="#">terms & conditions</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">faqs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+      });
+    });
+  </script>
+</body>
+
+</html>

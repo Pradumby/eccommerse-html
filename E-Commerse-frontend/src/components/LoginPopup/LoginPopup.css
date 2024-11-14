@@ -1,0 +1,122 @@
+ .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+   } 
+  
+  .auth-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 550px; 
+    width: 100%; 
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-button img {
+    width: 24px;
+    height: 24px; 
+  }
+  
+  .auth-section {
+    margin-top: 20px; 
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+/*   
+  .form-list {
+    list-style-type: none;
+    padding: 0;
+  } */
+  
+  /* .form-list li {
+    margin-bottom: 15px; 
+  } */
+  
+  .btn-login {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background: #0056b3; 
+  }
+  
+  .toggle-auth-mode {
+    margin-top: 0px;
+    background: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .link {
+    background: none;
+    border: none;
+    color: #007bff; /* Choose your link color */
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: inherit;
+    padding: 0;
+  }
+  
+
+  /* Form item container styling  signup*/
+
+
+  .form-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .form-label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styling */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s;
+  }
+  
+  /* Placeholder styling */
+  .form-input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+  }
+  
